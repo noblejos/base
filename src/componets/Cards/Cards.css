@@ -1,0 +1,22 @@
+.cards{
+    display: flex;
+    gap: 10px;
+}
+.parent{
+    width: 100%;
+    
+}
+@media (max-width:1200px) {
+    .cards{
+        flex-direction: column;
+
+    }
+    .parent{
+        height: 9rem;
+    }
+  }
+  @media (max-width:798px) {
+    .cards{
+        width: 90%;
+    }
+}
